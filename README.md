@@ -1,11 +1,21 @@
-# 🛡️ Flood Monitoring WebGIS & SAR Analysis
-Dashboard interaktif untuk monitoring risiko bencana menggunakan **Google Earth Engine (GEE)** dan **Sentinel-1 SAR**.
+🛡️ Monitoring Risiko Bencana & Analisis SAR
 
-## 🚀 Fitur Utama
-* **Real-time Monitoring**: Visualisasi indeks NDWI dan NDVI langsung dari server GEE.
-* **Cloud Masking**: Algoritma otomatis untuk membersihkan gangguan awan pada citra satelit.
-* [cite_start]**SAR Analysis**: Deteksi area tergenang banjir di Kabupaten Karawang menggunakan perubahan *backscatter* radar[cite: 204].
+Dashboard WebGIS interaktif untuk memantau risiko banjir dan analisis radar (SAR) menggunakan Google Earth Engine (GEE).
 
-## 🛠️ Tech Stack
-* **Language**: Python (Geemap, Leafmap).
-* **Data Source**: Copernicus Sentinel-1 & Sentinel-2.
+🔗 https://alaadarojah.github.io/Flood-Monitoring-WebGIS/
+
+Buka WebGIS di sini
+
+📊 Fitur Utama
+
+Monitoring WebGIS – Visualisasi NDWI (air/banjir) dan NDVI (vegetasi) secara real-time, lengkap dengan cloud masking.
+
+Analisis Sentinel-1 SAR – Deteksi genangan banjir di Karawang melalui perubahan backscatter radar.
+
+🛠️ Teknologi
+
+Platform: Google Earth Engine (GEE)
+
+Bahasa Pemrograman: Python (Geemap, Leafmap)
+
+Pendekatan: Workflow otomatis dengan validasi kualitas (QC): Copernicus Sentinel-1 & Sentinel-2.
